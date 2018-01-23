@@ -1,0 +1,163 @@
+body {
+    background: rgb(173, 173, 173); /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ecf1f1, #5f6779);
+    background: linear-gradient(to left, #ecf1f1, #5f6779);
+  }
+  
+  .no-padding {
+    padding: 0 !important;
+  }
+  
+  .no-margin {
+    margin: 0 !important;
+  }
+  
+  .white {
+    color: white !important;
+  }
+  
+  .strike-through {
+    text-decoration: line-through;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 4em;
+    max-height: 16em;
+  }
+  
+  strong + small {
+      display: block;
+  }
+  
+  input[type=checkbox] {
+    margin-right: 1em;
+  }
+  
+  div.pull-right a {
+    margin-left: 1em;
+  }
+  .grey-area {
+    border: 1px solid white;
+    background: #e6e6e6;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom:0;
+    }
+    
+    .grey-button {
+    border: 1px solid white;
+    background: #b6b6b6;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+    .grey-box {
+    border: 1px solid white;
+    background: #f0f5ee;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+    .padding{
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 0;
+      margin-bottom:0;
+    }
+  
+    .labelPadding{
+      padding-top: 16px;
+    }
+    .white-background{
+      background: #ffffff;
+    }
+    .zero-padding{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .right-padding{
+      padding-right: 8px;
+    }
+    .blue-textANDtop-padding{
+      color:#036f91;
+      padding-top:16px;
+    }
+    .left-padding{
+      padding-left: 8px;
+    }
+    .floating-box {
+      display: inline-block;
+      width: 450px;
+      height: 75px;
+      margin: 10px;
+      border: 2px solid #f0f5ee;  
+  }
+  .mainImage{
+    width: 100%;
+    height: 350px;
+  }
+  .imageSize{
+    width:100px;
+    height: 500px;
+  }
+  .wrapper {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 20% 15% 18% 1% 22% 22%;
+    background-color: #f0f5ee;
+  }
+  .gridBox {
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.a {
+    grid-column: 1;
+    grid-row: 1 ;
+}
+.b {
+    grid-column: 1 ;
+    grid-row: 2;
+}
+.c {
+    grid-column: 2 ;
+    grid-row: 2 ;
+}
+.d {
+    
+    grid-column: 3 ;
+    grid-row: 2 ;
+}
+.e{
+    grid-column: 5;
+    grid-row: 2;
+}
+.f{
+  grid-column: 6;
+  grid-row: 3;
+}
+.g{
+  grid-column: 5;
+  grid-row: 3;
+}
+.h{
+  grid-column: 6;
+  grid-row: 2;
+  height: 25px;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.horizontalLine{
+  color: black;
+}
+.button-size{
+  height: 25px;
+  position: relative;
+  box-sizing: border-box;
+}

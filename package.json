@@ -4,7 +4,7 @@
   "description": "Base application setup for creating a new react project.",
   "main": "server/index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -w",
     "start": "node server/index.js",
     "less": "lessc src/css/style.less dist/css/style.css",
     "lint": "eslint .",
@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
     "chai": "^3.5.0",
     "expect": "^1.20.2",
     "express": "^4.15.3",
@@ -25,6 +26,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "serve-favicon": "^2.0.1",
+    "sparkpost": "^2.1.2",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
